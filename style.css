@@ -1,0 +1,181 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+}
+
+/* GENERAL CONTAINER */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* HERO */
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.image-placeholder {
+  background-color: #6b7280;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+  font-size: 14px;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+}
+
+.primary-btn {
+  background-color: #3882f6;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+}
+
+/* INFO SECTION */
+.info {
+  background-color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  width: 150px;
+  text-align: center;
+}
+
+.image-outline {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* QUOTE SECTION */
+.quote {
+  background-color: #e5e7eb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 22px;
+  color: #333;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.quote-author {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* CTA SECTION */
+.cta {
+  background-color: #3882f6;
+  color: white;
+  padding: 40px 0;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: #3882f6;
+}
+
+.cta-text h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cta-text p {
+  font-size: 14px;
+}
